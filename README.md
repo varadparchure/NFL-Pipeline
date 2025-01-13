@@ -1,4 +1,3 @@
-# NFL-Pipeline
 
 
 # NFL Data Pipeline with Azure and Databricks
@@ -12,7 +11,7 @@ Files Provided: 19 CSV files containing various data categories such as basic st
 <img width="894" alt="Screenshot 2025-01-13 at 12 54 52 PM" src="https://github.com/user-attachments/assets/cba2ccb7-5612-4c38-aa56-9b516f1dff27" />
 
 kaggle Dataset link: https://www.kaggle.com/datasets/kendallgillies/nflstatistics?resource=download
-Data Scraped from NFL website: https://github.com/kendallgillies/NFL-Statistics-Scrape
+<br>Data Scraped from NFL website: https://github.com/kendallgillies/NFL-Statistics-Scrape
 
 
 ## Pipeline Workflow
