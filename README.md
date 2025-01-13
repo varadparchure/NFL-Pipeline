@@ -1,8 +1,9 @@
-
-
 # NFL Data Pipeline with Azure and Databricks
-Project Overview<br>
+## Project Overview<br>
 This project involves creating an ELT (Extract, Load, Transform) pipeline using NFL data sourced from Kaggle. The pipeline processes data from raw CSV files to transformed datasets ready for further analysis or reporting. The focus of this project is solely on pipeline creation, leveraging Azure and Databricks for data management and transformation.
+
+## Goal for this project
+The goal of this project was to build a robust data pipeline that ingests raw data from CSV files, stores it as raw data in Azure Data Lake Gen2, and then utilizes Azure Databricks for transformations. While the transformations in this project were limited in scope, they were implemented using PySpark to demonstrate scalable data processing capabilities. The transformed data was then stored back into Azure Data Lake Gen2 and subsequently ingested into Azure Synapse Analytics, making it readily available for further analysis or reporting. The primary focus of this project was on the pipeline creation process rather than performing an in-depth analysis of the data. However, extending this project to include detailed analysis and visualization would be an exciting next step.
 
 ## Data Source
 Dataset: NFL Data from Kaggle<br>
