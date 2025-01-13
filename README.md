@@ -25,13 +25,13 @@ The ingested data is stored as raw data in Azure Data Lake Gen2.<br>
 </br>
 4. Data Transformation<br>
 Data is pulled into Azure Databricks for processing.
-Using Apache Spark, basic transformations are applied to clean and standardize the data.<br>
+Using Apache Spark, basic transformations are applied to clean and standardize the data.<br><br>
 5. Transformed Data Storage<br>
-The transformed data is stored back into Azure Data Lake Gen2.<br>
-6. Data Integration<br>
+The transformed data is stored back into Azure Data Lake Gen2.<br><br>
+6. Data Integration<br><br>
 The processed data is ingested into Azure Synapse Analytics, creating structured tables that can be queried for analysis or used in BI tools.<br>
 7. Optional Visualization (Out of Scope for This Project)<br>
-Although visualization (e.g., using Tableau, Power BI, or Looker) is not within the scope of this project, the structured tables in Azure Synapse can be integrated with these tools for reporting in future projects.<br>
+Although visualization (e.g., using Tableau, Power BI, or Looker) is not within the scope of this project, the structured tables in Azure Synapse can be integrated with these tools for reporting in future projects.<br><br>
 
 ## Tech:<br>
 Azure Data Factory: For data ingestion and pipeline orchestration.<br>
