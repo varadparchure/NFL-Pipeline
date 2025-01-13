@@ -16,26 +16,26 @@ kaggle Dataset link: https://www.kaggle.com/datasets/kendallgillies/nflstatistic
 
 ## Pipeline Workflow
 1. Data Injection
-The raw data (CSV files) is ingested into the pipeline using Azure Data Factory.
+The raw data (CSV files) is ingested into the pipeline using Azure Data Factory.<br>
 2. Data Storage
-The ingested data is stored as raw data in Azure Data Lake Gen2.
+The ingested data is stored as raw data in Azure Data Lake Gen2.<br>
 
 <img width="920" alt="Screenshot 2025-01-13 at 12 41 02 PM" src="https://github.com/user-attachments/assets/c4ddc9dd-93b0-4a9c-9659-ab279d316616" />
 
 </br>
 4. Data Transformation
 Data is pulled into Azure Databricks for processing.
-Using Apache Spark, basic transformations are applied to clean and standardize the data.
+Using Apache Spark, basic transformations are applied to clean and standardize the data.<br>
 5. Transformed Data Storage
-The transformed data is stored back into Azure Data Lake Gen2.
+The transformed data is stored back into Azure Data Lake Gen2.<br>
 6. Data Integration
 The processed data is ingested into Azure Synapse Analytics, creating structured tables that can be queried for analysis or used in BI tools.
-7. Optional Visualization (Out of Scope for This Project)
-Although visualization (e.g., using Tableau, Power BI, or Looker) is not within the scope of this project, the structured tables in Azure Synapse can be integrated with these tools for reporting in future projects.
+7. Optional Visualization (Out of Scope for This Project)<br>
+Although visualization (e.g., using Tableau, Power BI, or Looker) is not within the scope of this project, the structured tables in Azure Synapse can be integrated with these tools for reporting in future projects.<br>
 
-## Key Technologies Used
-Azure Data Factory: For data ingestion and pipeline orchestration.
-Azure Data Lake Gen2: To store raw and transformed data.
-Azure Databricks: For scalable data transformations using Apache Spark.
-Azure Synapse Analytics: For structured data storage and integration.
-Python: For scripting and transformations within Databricks.
+## Tech:
+Azure Data Factory: For data ingestion and pipeline orchestration.<br>
+Azure Data Lake Gen2: To store raw and transformed data.<br>
+Azure Databricks: For scalable data transformations using Apache Spark.<br>
+Azure Synapse Analytics: For structured data storage and integration.<br>
+PySpark: For scripting and transformations within Databricks.
