@@ -9,8 +9,11 @@ This project involves creating an ELT (Extract, Load, Transform) pipeline using 
 Dataset: NFL Data from Kaggle
 Files Provided: 19 CSV files containing various data categories such as basic stats, passing stats, defensive stats, and more.
 
+<img width="894" alt="Screenshot 2025-01-13 at 12 54 52 PM" src="https://github.com/user-attachments/assets/cba2ccb7-5612-4c38-aa56-9b516f1dff27" />
+
 kaggle Dataset link: https://www.kaggle.com/datasets/kendallgillies/nflstatistics?resource=download
 Data Scraped from NFL website: https://github.com/kendallgillies/NFL-Statistics-Scrape
+
 
 ## Pipeline Workflow
 1. Data Injection
@@ -18,8 +21,9 @@ The raw data (CSV files) is ingested into the pipeline using Azure Data Factory.
 2. Data Storage
 The ingested data is stored as raw data in Azure Data Lake Gen2.
 
-<img width="1469" alt="Screenshot 2025-01-12 at 11 06 15 PM" src="https://github.com/user-attachments/assets/427f7f6f-fd2f-470d-8a7f-690ee8734528" />
+<img width="920" alt="Screenshot 2025-01-13 at 12 41 02 PM" src="https://github.com/user-attachments/assets/c4ddc9dd-93b0-4a9c-9659-ab279d316616" />
 
+</br>
 4. Data Transformation
 Data is pulled into Azure Databricks for processing.
 Using Apache Spark, basic transformations are applied to clean and standardize the data.
