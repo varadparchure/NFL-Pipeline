@@ -29,8 +29,8 @@ Using Apache Spark, basic transformations are applied to clean and standardize t
 5. Transformed Data Storage
 The transformed data is stored back into Azure Data Lake Gen2.<br>
 6. Data Integration
-The processed data is ingested into Azure Synapse Analytics, creating structured tables that can be queried for analysis or used in BI tools.
-7. Optional Visualization (Out of Scope for This Project)<br>
+The processed data is ingested into Azure Synapse Analytics, creating structured tables that can be queried for analysis or used in BI tools.<br>
+7. Optional Visualization (Out of Scope for This Project)
 Although visualization (e.g., using Tableau, Power BI, or Looker) is not within the scope of this project, the structured tables in Azure Synapse can be integrated with these tools for reporting in future projects.<br>
 
 ## Tech:
